@@ -111,6 +111,17 @@ const BNB_ADDRESSES: ChainAddresses = {
   swapRouter02Address: '0xB971eF87ede563556b2ED4b1C0b0019111Dd85d2',
 }
 
+// BNB Testnet v3 addresses
+const BNB_TESTNET_ADDRESSES: ChainAddresses = {
+  v3CoreFactoryAddress: '0x9B8245CAce599ab1117767Bb8Ee286137bca828f',
+  multicallAddress: '0x684d0d244755b60B736669Ee17df6371c528B5f8',
+  quoterAddress: '0x7b158954A2Bacdc132fA7920E6e48e12c2B86a02',
+  v3MigratorAddress: '0x206d504A5A53386aF821C2E9e613e4f2C52627F0',
+  nonfungiblePositionManagerAddress: '0x138422Af6f3e979eC4fBD346093070D1647ca9DC',
+  tickLensAddress: '0x76ce283ddf46bCf58Ffc41b42fCD56e614633Bc5',
+  swapRouter02Address: '0x601a7f949F882F04E3a3DCdaFA5Eed347f6A2c79',
+}
+
 // optimism goerli addresses
 const OPTIMISM_GOERLI_ADDRESSES: ChainAddresses = {
   v3CoreFactoryAddress: '0xB656dA17129e7EB733A557f4EBc57B76CFbB5d10',
@@ -246,6 +257,7 @@ export const CHAIN_TO_ADDRESSES_MAP: Record<SupportedChainsType, ChainAddresses>
   [ChainId.CELO]: CELO_ADDRESSES,
   [ChainId.CELO_ALFAJORES]: CELO_ADDRESSES,
   [ChainId.BNB]: BNB_ADDRESSES,
+  [ChainId.BNB_TESTNET]: BNB_TESTNET_ADDRESSES,
   [ChainId.OPTIMISM_GOERLI]: OPTIMISM_GOERLI_ADDRESSES,
   [ChainId.OPTIMISM_SEPOLIA]: OPTIMISM_SEPOLIA_ADDRESSES,
   [ChainId.ARBITRUM_GOERLI]: ARBITRUM_GOERLI_ADDRESSES,

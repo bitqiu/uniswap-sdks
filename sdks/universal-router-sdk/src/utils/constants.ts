@@ -81,6 +81,12 @@ const CHAIN_CONFIGS: { [key: number]: ChainConfig } = {
     weth: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
     creationBlock: 35160263,
   },
+  // binance smart chain testnet
+  [97]: {
+    router: '0x7ec642729D746AFD6ec67999Bdb5e3C31e75a1f2',
+    weth: '0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd',
+    creationBlock: 35160263,
+  },
   // avalanche
   [43114]: {
     router: '0x4Dae2f939ACf50408e13d58534Ff8c2776d45265',
