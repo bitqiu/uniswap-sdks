@@ -1,5 +1,6 @@
 {
   "name": "@uniswap/router-sdk",
+  "version": "0.0.1-local",
   "description": "An sdk for routing swaps using Uniswap v2 and Uniswap v3.",
   "repository": "https://github.com/Uniswap/sdks.git",
   "keywords": [
@@ -37,7 +38,8 @@
     "singleQuote": true
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://nexus.byxxs.com/repository/npm-hosted/"
   },
   "release": {
     "extends": "semantic-release-monorepo",

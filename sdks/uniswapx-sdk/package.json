@@ -1,5 +1,6 @@
 {
   "name": "@uniswap/uniswapx-sdk",
+  "version": "0.0.1-local",
   "author": "Uniswap",
   "repository": "https://github.com/Uniswap/sdks.git",
   "keywords": [
@@ -61,7 +62,8 @@
     }
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://nexus.byxxs.com/repository/npm-hosted/"
   },
   "release": {
     "extends": "semantic-release-monorepo",

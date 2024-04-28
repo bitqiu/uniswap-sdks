@@ -1,5 +1,6 @@
 {
   "name": "@uniswap/universal-router-sdk",
+  "version": "0.0.1-local",
   "description": "sdk for integrating with the Universal Router contracts",
   "repository": "https://github.com/Uniswap/sdks.git",
   "keywords": [
@@ -62,7 +63,8 @@
     "trailingComma": "es5"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://nexus.byxxs.com/repository/npm-hosted/"
   },
   "release": {
     "extends": "semantic-release-monorepo",
